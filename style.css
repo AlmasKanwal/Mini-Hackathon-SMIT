@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+}
+
+/* body{
+    background-color: #efe9e9;
+} */
+
+/* Header or Navbar */
+.navbar{
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.logo img{
+   margin-left: 60px;
+}
+
+.nav-links{
+    padding-right: 70px;
+}
+
+.nav-links a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.nav-links .nav-btn{
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section{
+    width: 100vw;
+    height: 500px;
+    /* padding: 60px 30px 60px 30px; */
+    padding: 40px;
+    background-color: #efe9e9;
+}
+
+.hero-section h1{
+    color: #394149;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.hero-section h1 span{
+    color: #4caf4f;
+    display: block;
+    
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #596169;
+}
+
+.hero-section .hero-btn{
+    padding: 10px 20px 10px 20px;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero-div{
+    display: flex;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.hero-text{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.hero-image{
+    margin-left: 200px;
+    /* margin-top: 80px; */
+}
+
+/* Client */
+.client{
+    width: 100vw;
+    height: 180px;
+    background-color: #4caf4f;
+    padding-top: 20px;
+}
+
+.client-text{
+    text-align: center;
+}
+
+.client-text h2{
+    color: #394149;
+    font-size: 34px;
+}
+
+.client-text p{
+    color: #596169;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.client-icons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+.client-icons img{
+    padding: 0 130px 0 130px;
+}
+
+/* Community */
+.community{
+    width: 100vw;
+    height: 500px;
+    padding-top: 20px;
+    background-color: #dfe668;
+}
+
+.community-text{
+    text-align: center;
+}
+
+.community-text h2{
+    font-size: 30px;
+    color: #394149;
+    margin-bottom: 8px;
+}
+
+.community-text h2 span{
+    display: block;
+}
+
+.community-text p{
+    font-size: 20px;
+    color: #596169;
+}
+
+.card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.card-main .card1, .card2, .card3{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-main h2{
+    font-size: 30px;
+}
+
+.card-main p{
+    font-size: 20px;
+    color: #596169;
+    padding: 20px;
+}
+
+.card-main img{
+    padding-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.card-main .card2, .card3{
+    margin-left: 150px;
+}
+
+/* Body */
+.body{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+    background-color: aqua;
+}
+
+.body-con1{
+    margin: 10px 100px 10px 100px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.body-con1 .body-image{
+    margin-left: 350px;
+}
+
+.body-image img{
+    width: 400px;
+    height: auto;
+}
+
+.body-main-text{
+    width: 500px;
+    height: auto;
+    margin-left: 170px;
+}
+
+.body-main-text h2{
+    font-size: 32px;
+    color: #394149;
+    padding-bottom: 20px;   
+}
+
+.body-main-text p{
+    font-size: 20px;
+    color: #596169;
+}
+
+.body-con1 .body-btn{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: #4caf4f;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.body-con2{
+    width: 100vw;
+    height: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: bisque;
+    padding-top: 50px;
+}
+
+.body-con2 .div-text{
+    padding-left: 50px;
+}
+
+.div-text h2{
+    font-size: 35px;
+    color: #394149;
+}
+
+.div-text h2 span{
+    display: block;
+    color: #4caf4f;
+}
+
+.div-text p{
+    font-size: 20px;
+    color: #596169;
+}
